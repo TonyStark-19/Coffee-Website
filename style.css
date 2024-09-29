@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     font: 1em sans-serif;
-    overflow: hidden;
+    scroll-behavior: smooth;
 }
+
+/* Home section */
 
 #home {
     height: 100vh;
     background: #ca965c;
 }
+
+/* Navbar*/
 
 nav {
     padding: 15px 0 15px 20px;
@@ -19,7 +23,10 @@ nav {
     align-items: center;
     width: 100%;
     position: fixed;
+    background: #ca965c;
 }
+
+/* logo */
 
 .logo {
     display: flex;
@@ -33,6 +40,8 @@ nav {
     color: #fff;
     font-weight: 600;
 }
+
+/* Navigation link */
 
 .navigation {
     display: flex;
@@ -62,6 +71,8 @@ nav {
 .nav-link:hover a {
     color: #fff;
 }
+
+/* Center text */
 
 .content {
     display: flex;
@@ -98,6 +109,8 @@ nav {
     line-height: 1.3;
 }
 
+/* image */
+
 .image {
     margin-top: 80px;
     margin-left: -40px;
@@ -108,6 +121,8 @@ nav {
     width: 550px;
 }
 
+/* buttons */
+
 .buttons button {
     padding: 10px 28px;
     border-radius: 20px;
@@ -115,6 +130,8 @@ nav {
     font-size: 20px;
     outline: none;
 }
+
+/* btn 1 */
 
 .order {
     background: #7c4b21d1;
@@ -129,6 +146,8 @@ nav {
     color: #fff;
 }
 
+/* btn 2 */
+
 .book {
     background: transparent;
     border: 2px solid #fff;
@@ -140,4 +159,72 @@ nav {
     background: #7c4b21d1;
     border: 2px solid transparent;
     color: #fff;
+}
+
+/* about section */
+
+#About {
+    min-height: 50vh;
+    background: #f2f2f2;
+    padding: 60px 20px 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* About text */
+
+.About-text {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.About-text h2 {
+    font-size: 32px;
+    color: #000;
+    padding: 60px 0 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.About-text h2::after {
+    content: '';
+    width: 80px;
+    background: #f3961c;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+}
+
+.About-text p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000;
+    line-height: 1.3;
+}
+
+/* About image */
+
+.About-image {
+    height: 500px;
+    width: 500px;
+}
+
+.About-image img {
+    height: 100%;
+    width: 100%;
+}
+
+/* services section */
+
+#Services {
+    min-height: 100vh;
+    background: #252525;
+    padding: 60px 20px 120px;
 }
