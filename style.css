@@ -38,7 +38,6 @@ nav {
 .logo h2 {
     font-size: 35px;
     color: #fff;
-    
 }
 
 /* Navigation link */
@@ -225,6 +224,68 @@ nav {
 
 #Services {
     min-height: 100vh;
-    background: #252525;
+    background: #252525 ;
     padding: 60px 20px 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Services h2 {
+    font-size: 32px;
+    color: #fff;
+    padding: 60px 0 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#Services h2::after {
+    content: '';
+    width: 80px;
+    background: #f3961c;
+    height: 5px;
+    display: block;
+    margin: 7px auto 0;
+    border-radius: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1080px;
+    
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+}
+
+.menu-image {
+    height: 320px;
+    width: 320px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-box h3 {
+    font-size: 24px;
+    margin: 12px 0;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu-box p {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
 }
