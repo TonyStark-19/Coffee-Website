@@ -251,11 +251,10 @@ nav {
 
 .menu {
     display: flex;
-    gap: 60px;
+    gap: 100px;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1080px;
-    
+    width: 1200px;
 }
 
 .menu-box {
@@ -279,13 +278,18 @@ nav {
 
 .menu-box h3 {
     font-size: 24px;
-    margin: 12px 0;
+    margin: 15px 0;
     color: #fff;
     font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
 }
 
 .menu-box p {
     font-size: 17px;
     color: #fff;
     text-align: center;
+    letter-spacing: 1px;
 }
