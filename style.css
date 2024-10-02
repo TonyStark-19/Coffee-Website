@@ -423,7 +423,8 @@ nav {
     background: #f2f2f2;
     padding: 60px 20px 120px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #Contact h2 {
@@ -442,4 +443,89 @@ nav {
     display: block;
     margin: 7px auto 0;
     border-radius: 8px;
+}
+
+.contact-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    width: 800px;
+}
+
+.input-box label {
+    font-size: 17px;
+    margin: 0 0 8px;
+}
+
+.input-box input {
+    padding: 0 12px;
+    height: 50px;
+    width: 800px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: 2px solid #000;
+}
+
+#Message {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 800px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0;
+    gap: 18px;
+}
+
+#box {
+    margin-top: 20px;
+}
+
+.info-box i {
+    font-size: 25px;
+    margin: 5px 0 0;
+}
+
+.info-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-wrap h3 {
+    font-size: 19px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.info-wrap p {
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 5px;
 }
