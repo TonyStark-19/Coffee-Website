@@ -37,7 +37,7 @@ nav {
 }
 
 .logo h2 {
-    font-size: 35px;
+    font-size: 32px;
     color: #fff;
 }
 
@@ -281,7 +281,7 @@ nav {
 
 .menu-box h3 {
     font-size: 24px;
-    margin: 15px 0;
+    margin: 20px 0;
     color: #fff;
     font-weight: 600;
     padding: 8px 16px;
@@ -489,6 +489,24 @@ input:focus {
     height: 200px;
 }
 
+.Submit {
+    width: 17%;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 28px;
+    border-radius: 20px;
+    background: #ca965c;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.Submit:hover {
+    background: transparent;
+    border: 2px solid #ca965c;
+    color: #ca965c;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -528,4 +546,103 @@ input:focus {
     color: #000;
     letter-spacing: 1px;
     margin-top: 5px;
+}
+
+footer {
+    padding: 60px 20px;
+    background: #1b1b1b;
+}
+
+.foot-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#logo {
+    height: 100%;
+}
+
+#logo h2 {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.links h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links li {
+    margin-bottom: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.links li a:hover {
+    text-decoration: underline;
+}
+
+.info-links h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.info-links ul {
+    list-style-type: none;
+}
+
+.info-links li {
+    margin-bottom: 20px;
+}
+
+.info-links i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.info-links span {
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.social-links h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.link-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.link-wrap a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.link-wrap a:hover {
+    color: #ca965c;
 }
