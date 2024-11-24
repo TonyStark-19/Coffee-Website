@@ -2,21 +2,26 @@
 
 Welcome to **Brewed Bliss**, a website that brings the warmth of a coffeehouse to the digital world. This website showcases the menu, services, and ambiance of our coffee shop. It offers users the ability to learn about our coffee, see our gallery, and easily get in touch for orders, reservations, or general inquiries.
 
-## Project Description
+## 🌟 Live Demo
 
-The **Brewed Bliss Coffee Website** is built using HTML and CSS, and incorporates a modern, user-friendly design. The website includes several sections to highlight the cafe's offerings, from its delightful coffee selection to its cozy atmosphere. Icons from FontAwesome are used to enhance the design with visually appealing symbols.
+The project is live and can be viewed here: [Brewed Bliss Coffee Website](https://tonystark-19.github.io/Coffee-Website/)
 
-### Key Features:
-- **Responsive Navbar:** Easy navigation between different sections of the website.
-- **Home Section:** A welcoming banner with a call-to-action to order online or book a table.
-- **About Section:** Detailed information about the cafe's story and philosophy.
-- **Services Section:** A showcase of the various coffee types offered, complete with images and descriptions.
-- **Why Us Section:** Describes the unique selling points of the cafe (delicious food, pleasant ambiance, and great hospitality).
-- **Gallery Section:** A visual gallery to provide a glimpse of the cafe’s environment and offerings.
-- **Contact Section:** Users can submit their contact details and messages through the contact form, or use other contact information provided.
-- **Footer Section:** Includes useful links, contact details, and social media connections.
+## 📖 Project Description
 
-## Technologies Used
+The **Brewed Bliss Coffee Website** is a modern, user-friendly website built with HTML and CSS. It showcases the offerings of a cozy coffeehouse, providing an engaging online presence. The site includes visually appealing sections designed to enhance user experience and highlight the cafe’s unique features.
+
+### ✨ Key Features:
+
+- **Responsive Navbar:** Navigate seamlessly through different sections of the website.
+- **Home Section:** A warm welcome banner with a call-to-action for online orders or table bookings.
+- **About Section:** The story and philosophy behind the cafe.
+- **Services Section:** Displays various coffee options, complete with descriptions and images.
+- **Why Us Section:** Highlights the cafe’s unique qualities like delicious food, ambiance, and hospitality.
+- **Gallery Section:** A visual tour of the cafe’s environment and offerings.
+- **Contact Section:** Users can fill out a contact form or find other ways to reach out.
+- **Footer Section:** Includes quick links, contact details, and social media connections.
+
+## 💻 Technologies Used
 
 - **HTML5**
 - **CSS3**
