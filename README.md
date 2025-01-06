@@ -2,6 +2,11 @@
 
 Welcome to **Brewed Bliss**, a website that brings the warmth of a coffeehouse to the digital world. This website showcases the menu, services, and ambiance of our coffee shop. It offers users the ability to learn about our coffee, see our gallery, and easily get in touch for orders, reservations, or general inquiries.
 
+## Screenshots
+
+### Homepage :
+![Homepage Screenshot](images/image.png)
+
 ## 🌟 Live Demo
 
 The project is live and can be viewed here: [Brewed Bliss Coffee Website](https://tonystark-19.github.io/Coffee-Website/)
