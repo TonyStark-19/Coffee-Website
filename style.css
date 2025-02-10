@@ -28,7 +28,7 @@ body {
 /* Home section */
 
 #home {
-    min-height: 50vh;
+    min-height: 90vh;
     background: #3b141c;
 }
 
@@ -317,6 +317,8 @@ nav {
     display: flex;
     gap: 100px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 1200px;
 }
@@ -324,6 +326,7 @@ nav {
 .menu-box {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 320px;
 }
@@ -719,12 +722,30 @@ footer {
 
 /* Responsiveness */
 
+@media (max-width: 1250px) {
+
+    /* services section */
+
+    .menu {
+        gap: 80px;
+    }
+}
+
 @media (max-width: 1218px) {
 
     /* home section */
 
     .center-text {
         margin-left: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    /* services section */
+
+    .menu {
+        gap: 60px;
     }
 }
 
@@ -761,6 +782,45 @@ footer {
 
     .buttons button {
         font-size: 17px;
+    }
+
+    /* about section */
+
+    .About-text {
+        width: 550px;
+    }
+
+    .About-text h2 {
+        font-size: 30px;
+        padding: 40px 0 80px;
+    }
+
+    .About-text p {
+        font-size: 17px;
+    }
+
+    /* services section */
+
+    #Services {
+        padding-bottom: 60px;
+    }
+
+    #Services h2 {
+        font-size: 30px;
+        padding: 40px 0 80px;
+    }
+
+    .menu {
+        gap: 50px;
+    }
+
+    .menu-box h3 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    .menu-box p {
+        font-size: 16px;
     }
 }
 
@@ -810,6 +870,51 @@ footer {
 
     .buttons button {
         font-size: 16px;
+    }
+
+    /* about section */
+
+    .About-text {
+        width: 500px;
+    }
+
+    .About-text h2 {
+        font-size: 28px;
+        padding: 20px 0 60px;
+    }
+
+    .About-text p {
+        font-size: 16px;
+    }
+
+    .About-image {
+        height: 450px;
+        width: 450px;
+    }
+
+    /* services section */
+
+    #Services h2 {
+        font-size: 28px;
+        padding: 20px 0 60px;
+    }
+
+    .menu-box {
+        width: 300px;
+    }
+
+    .menu-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    /* services section */
+
+    .menu {
+        gap: 35px;
     }
 }
 
@@ -864,6 +969,51 @@ footer {
     .buttons button {
         font-size: 15px;
     }
+
+    /* about section */
+
+    .About-text {
+        width: 450px;
+    }
+
+    .About-text h2 {
+        font-size: 28px;
+        padding: 20px 0 60px;
+    }
+
+    .About-text p {
+        font-size: 15px;
+    }
+
+    .About-image {
+        height: 400px;
+        width: 400px;
+    }
+
+    /* services section */
+
+    .menu-box {
+        width: 320px;
+    }
+
+    .menu-box h3 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    .menu-box p {
+        font-size: 17px;
+    }
+
+    .menu-image {
+        height: 320px;
+        width: 320px;
+    }
+
+    .menu {
+        width: 800px;
+        gap: 80px;
+    }
 }
 
 @media (max-width: 950px) {
@@ -916,6 +1066,28 @@ footer {
     }
 }
 
+@media (max-width: 900px) {
+
+    /* about section */
+
+    .About-text {
+        width: 400px;
+    }
+
+    .About-text h2 {
+        font-size: 26px;
+    }
+
+    .About-text p {
+        font-size: 14px;
+    }
+
+    .About-image {
+        height: 370px;
+        width: 370px;
+    }
+}
+
 @media (max-width: 850px) {
 
     /* menu */
@@ -931,19 +1103,21 @@ footer {
 
     .navigation {
         position: absolute;
-        top: 90px;
-        right: -110%;
+        top: 70px;
+        right: -115%;
         width: 100%;
-        min-height: 260px;
+        min-height: 40vh;
         background: #fff;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 30px;
         transition: all 0.5s ease;
     }
 
     .navigation.active {
-        right: -7%;
+        right: -5%;
         transition: all 0.5s ease;
     }
 
@@ -1018,8 +1192,8 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 850px;
-        margin: -40px 20px 0 0;
+        width: 750px;
+        margin: -40px 30px 0 0;
     }
 
     .center-text h2 {
@@ -1048,5 +1222,535 @@ footer {
 
     .buttons button {
         font-size: 18px;
+    }
+
+    /* About section */
+
+    #About {
+        flex-direction: column;
+        padding-bottom: 60px;
+    }
+
+    .About-text {
+        width: 600px;
+    }
+
+    .About-text h2 {
+        font-size: 32px;
+        padding: 40px 0 80px;
+    }
+
+    .About-text p {
+        font-size: 18px;
+    }
+
+    .About-image {
+        height: 500px;
+        width: 500px;
+    }
+
+    /* services section */
+
+    .menu-box h3 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    .menu-box p {
+        font-size: 16px;
+    }
+
+    .menu {
+        width: 800px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 770px) {
+
+    /* services section */
+
+    .menu-box {
+        width: 320px;
+    }
+
+    .menu-box h3 {
+        font-size: 20px;
+    }
+
+    .menu-box p {
+        font-size: 15px;
+    }
+
+    .menu {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    /* home section */
+
+    .center-text {
+        width: 650px;
+    }
+}
+
+@media (max-width: 730px) {
+
+    /* services section */
+
+    .menu-box {
+        width: 300px;
+    }
+
+    .menu-box h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .menu-box p {
+        font-size: 14px;
+    }
+
+    .menu-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    /* services section */
+
+    .menu {
+        gap: 35px;
+    }
+
+    .menu-box {
+        width: 280px;
+    }
+
+    .menu-box h3 {
+        font-size: 17px;
+    }
+
+    .menu-box p {
+        font-size: 13px;
+    }
+
+    .menu-image {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    /* home section */
+
+    .center-text {
+        width: 550px;
+    }
+
+    .center-text h2 {
+        font-size: 38px;
+    }
+
+    .center-text h3 {
+        font-size: 33px;
+    }
+
+    .center-text p {
+        font-size: 19px;
+        margin: 15px 0 20px;
+    }
+
+    .buttons button {
+        font-size: 17px;
+    }
+
+    /* About section */
+
+    .About-text {
+        width: 550px;
+    }
+
+    .About-text h2 {
+        font-size: 30px;
+        padding: 20px 0 60px;
+    }
+
+    .About-text p {
+        font-size: 17px;
+    }
+
+    .About-image {
+        height: 450px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    /* services section */
+
+    .menu {
+        gap: 40px;
+        width: 400px;
+    }
+
+    .menu-box {
+        width: 320px;
+    }
+
+    .menu-box h3 {
+        font-size: 24px;
+    }
+
+    .menu-box p {
+        font-size: 17px;
+    }
+
+    .menu-image {
+        height: 320px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 570px) {
+
+    /* home section */
+
+    .center-text {
+        width: 450px;
+    }
+
+    .center-text h2 {
+        font-size: 34px;
+    }
+
+    .center-text h3 {
+        font-size: 27px;
+    }
+
+    .center-text p {
+        font-size: 18px;
+        width: 500px;
+    }
+
+    .buttons button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    /* About section */
+
+    #About {
+        padding-bottom: 40px;
+    }
+
+    .About-text {
+        width: 500px;
+    }
+
+    .About-text h2 {
+        font-size: 28px;
+    }
+
+    .About-text p {
+        font-size: 16px;
+    }
+
+    .About-image {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 510px) {
+
+    /* About section */
+
+    #About {
+        padding-top: 40px;
+    }
+
+    .About-text {
+        width: 450px;
+    }
+
+    .About-text h2 {
+        font-size: 26px;
+    }
+
+    .About-text p {
+        font-size: 15px;
+    }
+
+    .About-image {
+        height: 350px;
+        width: 350px;
+    }
+
+    /* services section */
+
+    #Services {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* home section */
+
+    .logo h2 {
+        font-size: 26px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu-btn,
+    .menu-btn-2 {
+        font-size: 25px;
+    }
+
+    .center-text {
+        width: 400px;
+    }
+
+    .center-text h2 {
+        font-size: 32px;
+    }
+
+    .center-text h3 {
+        font-size: 24px;
+    }
+
+    .center-text p {
+        font-size: 17px;
+        width: 440px;
+    }
+
+    .buttons button {
+        font-size: 15px;
+    }
+
+    .image img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 470px) {
+
+    /* About section */
+
+    .About-text {
+        width: 400px;
+    }
+
+    .About-text h2 {
+        font-size: 24px;
+        padding: 20px 0 60px;
+    }
+
+    .About-text p {
+        font-size: 14px;
+    }
+
+    .About-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    /* home section */
+
+    .logo h2 {
+        font-size: 22px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-btn,
+    .menu-btn-2 {
+        font-size: 20px;
+    }
+
+    .center-text {
+        width: 380px;
+    }
+
+    .center-text h2 {
+        font-size: 28px;
+    }
+
+    .center-text h3 {
+        font-size: 22px;
+    }
+
+    .center-text p {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .buttons button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    /* About section */
+
+    .About-text {
+        width: 370px;
+    }
+
+    .About-text h2 {
+        font-size: 22px;
+        padding: 0 0 40px;
+    }
+
+    .About-text p {
+        font-size: 13px;
+    }
+
+    .About-image {
+        height: 280px;
+        width: 280px;
+    }
+
+    /* services section */
+
+    #Services h2 {
+        font-size: 22px;
+        padding: 0 0 40px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    /* services section */
+
+    .menu-box {
+        width: 300px;
+    }
+
+    .menu-box h3 {
+        font-size: 22px;
+    }
+
+    .menu-box p {
+        font-size: 16px;
+    }
+
+    .menu-image {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    /* home section */
+
+    .center-text {
+        width: 350px;
+    }
+
+    .center-text h2 {
+        font-size: 26px;
+    }
+
+    .center-text h3 {
+        font-size: 20px;
+    }
+
+    .center-text p {
+        font-size: 15px;
+        width: 350px;
+    }
+
+    .buttons button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .image img {
+        height: 270px;
+        width: 270px;
+    }
+
+    /* About section */
+
+    .About-text {
+        width: 350px;
+    }
+}
+
+@media (max-width: 370px) {
+
+    /* home section */
+
+    .menu-btn,
+    .menu-btn-2 {
+        right: 40px;
+    }
+
+    .center-text {
+        width: 320px;
+    }
+
+    .center-text h2 {
+        font-size: 24px;
+    }
+
+    .center-text h3 {
+        font-size: 18px;
+    }
+
+    .center-text p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    .buttons button {
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+
+    /* About section */
+
+    .About-text {
+        width: 300px;
+    }
+
+    /* services section */
+
+    .menu-box {
+        width: 280px;
+    }
+
+    .menu-box h3 {
+        font-size: 20px;
+    }
+
+    .menu-box p {
+        font-size: 15px;
+    }
+
+    .menu-image {
+        height: 280px;
+        width: 280px;
     }
 }
