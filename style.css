@@ -28,7 +28,7 @@ body {
 /* Home section */
 
 #home {
-    min-height: 90vh;
+    min-height: 100vh;
     background: #3b141c;
 }
 
@@ -394,6 +394,7 @@ nav {
     justify-content: space-evenly;
     flex-direction: row;
     gap: 120px;
+    flex-wrap: wrap;
 }
 
 .Why-us-items {
@@ -729,6 +730,12 @@ footer {
     .menu {
         gap: 80px;
     }
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 80px;
+    }
 }
 
 @media (max-width: 1218px) {
@@ -790,7 +797,10 @@ footer {
         width: 550px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 30px;
         padding: 40px 0 80px;
     }
@@ -801,13 +811,9 @@ footer {
 
     /* services section */
 
-    #Services {
+    #Services,
+    #Gallery {
         padding-bottom: 60px;
-    }
-
-    #Services h2 {
-        font-size: 30px;
-        padding: 40px 0 80px;
     }
 
     .menu {
@@ -821,6 +827,26 @@ footer {
 
     .menu-box p {
         font-size: 16px;
+    }
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 40px;
+    }
+
+    .Why-us-items {
+        width: 280px;
+        padding: 10px;
+    }
+
+    .Why-us-items h3 {
+        font-size: 20px;
+    }
+
+    .Why-us-items p {
+        font-size: 15px;
+        width: 280px;
     }
 }
 
@@ -878,7 +904,10 @@ footer {
         width: 500px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 28px;
         padding: 20px 0 60px;
     }
@@ -893,11 +922,6 @@ footer {
     }
 
     /* services section */
-
-    #Services h2 {
-        font-size: 28px;
-        padding: 20px 0 60px;
-    }
 
     .menu-box {
         width: 300px;
@@ -976,7 +1000,10 @@ footer {
         width: 450px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 28px;
         padding: 20px 0 60px;
     }
@@ -1013,6 +1040,30 @@ footer {
     .menu {
         width: 800px;
         gap: 80px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        width: 800px;
+        gap: 70px;
+    }
+
+    .Why-us-items {
+        width: 300px;
+        padding: 12px;
+    }
+
+    .Why-us-items h3 {
+        font-size: 22px;
+    }
+
+    .Why-us-items p {
+        font-size: 17px;
+        width: 300px;
     }
 }
 
@@ -1074,7 +1125,10 @@ footer {
         width: 400px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 26px;
     }
 
@@ -1179,7 +1233,6 @@ footer {
     /* home section */
 
     .content {
-        margin: 0;
         flex-direction: column-reverse;
     }
 
@@ -1235,7 +1288,10 @@ footer {
         width: 600px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 32px;
         padding: 40px 0 80px;
     }
@@ -1285,6 +1341,26 @@ footer {
     .menu {
         gap: 40px;
     }
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 30px;
+    }
+
+    .Why-us-items {
+        width: 280px;
+        padding: 10px;
+    }
+
+    .Why-us-items h3 {
+        font-size: 20px;
+    }
+
+    .Why-us-items p {
+        font-size: 15px;
+        width: 280px;
+    }
 }
 
 @media (max-width: 750px) {
@@ -1317,6 +1393,12 @@ footer {
         height: 300px;
         width: 300px;
     }
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 20px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -1342,6 +1424,27 @@ footer {
     .menu-image {
         height: 280px;
         width: 280px;
+    }
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 30px;
+        width: 350px;
+    }
+
+    .Why-us-items {
+        width: 320px;
+        padding: 12px;
+    }
+
+    .Why-us-items h3 {
+        font-size: 22px;
+    }
+
+    .Why-us-items p {
+        font-size: 17px;
+        width: 320px;
     }
 }
 
@@ -1376,7 +1479,10 @@ footer {
         width: 550px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 30px;
         padding: 20px 0 60px;
     }
@@ -1454,7 +1560,10 @@ footer {
         width: 500px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 28px;
     }
 
@@ -1480,7 +1589,10 @@ footer {
         width: 450px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 26px;
     }
 
@@ -1540,8 +1652,8 @@ footer {
     }
 
     .image img {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
     }
 }
 
@@ -1553,7 +1665,10 @@ footer {
         width: 400px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 24px;
         padding: 20px 0 60px;
     }
@@ -1565,6 +1680,13 @@ footer {
     .About-image {
         height: 300px;
         width: 300px;
+    }
+
+    /* Gallery section */
+
+    .gallery-box {
+        height: 250px;
+        width: 350px;
     }
 }
 
@@ -1610,31 +1732,30 @@ footer {
 
 @media (max-width: 430px) {
 
+    /* home section */
+
+    .image img {
+        height: 330px;
+        width: 330px;
+    }
+
     /* About section */
 
     .About-text {
         width: 370px;
     }
 
-    .About-text h2 {
+    .About-text h2,
+    #Services h2,
+    #Why-us h2,
+    #Gallery h2 {
         font-size: 22px;
         padding: 0 0 40px;
-    }
-
-    .About-text p {
-        font-size: 13px;
     }
 
     .About-image {
-        height: 280px;
-        width: 280px;
-    }
-
-    /* services section */
-
-    #Services h2 {
-        font-size: 22px;
-        padding: 0 0 40px;
+        height: 330px;
+        width: 330px;
     }
 }
 
@@ -1687,14 +1808,25 @@ footer {
     }
 
     .image img {
-        height: 270px;
-        width: 270px;
+        height: 300px;
+        width: 300px;
     }
 
     /* About section */
 
     .About-text {
         width: 350px;
+    }
+
+    /* Gallery section */
+
+    .gallery-wrap {
+        gap: 30px;
+    }
+
+    .gallery-box {
+        height: 230px;
+        width: 330px;
     }
 }
 
@@ -1732,7 +1864,7 @@ footer {
     /* About section */
 
     .About-text {
-        width: 300px;
+        width: 290px;
     }
 
     /* services section */
@@ -1751,6 +1883,47 @@ footer {
 
     .menu-image {
         height: 280px;
+        width: 280px;
+    }
+
+    /* Gallery section */
+
+    .gallery-box {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 350px) {
+
+    /* why-us section */
+
+    .Why-us-wrap {
+        gap: 20px;
+        width: 300px;
+    }
+
+    .Why-us-items {
+        width: 300px;
+        padding: 10px;
+    }
+
+    .Why-us-items h3 {
+        font-size: 20px;
+    }
+
+    .Why-us-items p {
+        font-size: 15px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 330px) {
+
+    /* Gallery section */
+
+    .gallery-box {
+        height: 180px;
         width: 280px;
     }
 }
