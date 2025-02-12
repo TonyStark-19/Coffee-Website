@@ -311,7 +311,7 @@ nav {
     border-radius: 8px;
 }
 
-/* menu */
+/* menu items */
 
 .menu {
     display: flex;
@@ -389,6 +389,8 @@ nav {
     border-radius: 8px;
 }
 
+/* why-us items */
+
 .Why-us-wrap {
     display: flex;
     justify-content: space-evenly;
@@ -455,6 +457,8 @@ nav {
     border-radius: 8px;
 }
 
+/* gallery items */
+
 .gallery-wrap {
     display: flex;
     justify-content: center;
@@ -483,7 +487,7 @@ nav {
 /* Contact us */
 
 #Contact {
-    min-height: 100vh;
+    min-height: 60vh;
     background: #f2f2f2;
     padding: 60px 20px 120px;
     display: flex;
@@ -509,11 +513,15 @@ nav {
     border-radius: 8px;
 }
 
+/* contact wrap */
+
 .contact-wrap {
     display: flex;
     flex-direction: row;
     gap: 200px;
 }
+
+/* input area */
 
 .input-area {
     display: flex;
@@ -549,7 +557,7 @@ input:focus {
 #Message {
     padding: 12px;
     border-radius: 10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     width: 800px;
     height: 200px;
 }
@@ -560,7 +568,7 @@ textarea {
 }
 
 .Submit {
-    width: 17%;
+    width: 140px;
     color: #fff;
     font-size: 17px;
     font-weight: 600;
@@ -631,15 +639,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #logo {
     height: 100%;
+    margin-top: -15px;
 }
 
 #logo h2 {
     font-size: 24px;
     letter-spacing: 1px;
+}
+
+.links {
+    width: 142px;
 }
 
 .links h3 {
@@ -670,6 +684,10 @@ footer {
     text-decoration: underline;
 }
 
+.info-links span {
+    width: 300px;
+}
+
 .info-links h3 {
     font-size: 22px;
     margin: 0 0 20px;
@@ -695,6 +713,10 @@ footer {
     font-size: 17px;
     color: #fff;
     letter-spacing: 1px;
+}
+
+.social-links {
+    width: 132px;
 }
 
 .social-links h3 {
@@ -735,6 +757,18 @@ footer {
 
     .Why-us-wrap {
         gap: 80px;
+    }
+
+    /* contact section */
+
+    .contact-wrap {
+        gap: 100px;
+    }
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 700px;
     }
 }
 
@@ -800,7 +834,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 30px;
         padding: 40px 0 80px;
     }
@@ -812,7 +847,8 @@ footer {
     /* services section */
 
     #Services,
-    #Gallery {
+    #Gallery,
+    #Contact {
         padding-bottom: 60px;
     }
 
@@ -847,6 +883,14 @@ footer {
     .Why-us-items p {
         font-size: 15px;
         width: 280px;
+    }
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 600px;
     }
 }
 
@@ -907,7 +951,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 28px;
         padding: 20px 0 60px;
     }
@@ -933,12 +978,65 @@ footer {
     }
 }
 
+@media (max-width: 1080px) {
+
+    /* contact section */
+
+    .contact-wrap {
+        gap: 100px;
+    }
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 500px;
+    }
+
+    #Message {
+        height: 150px;
+    }
+
+    .info-box {
+        margin: 60px 0;
+    }
+}
+
 @media (max-width: 1050px) {
 
     /* services section */
 
     .menu {
         gap: 35px;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 40px 20px;
+    }
+
+    #logo img {
+        height: 55px;
+        width: 55px;
+    }
+
+    #logo h2 {
+        font-size: 22px;
+    }
+
+    .links h3,
+    .info-links h3,
+    .social-links h3 {
+        font-size: 20px;
+    }
+
+    .links a,
+    .info-links span {
+        font-size: 16px;
+    }
+
+    .link-wrap a {
+        font-size: 23px;
     }
 }
 
@@ -1003,7 +1101,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 28px;
         padding: 20px 0 60px;
     }
@@ -1041,6 +1140,13 @@ footer {
         width: 800px;
         gap: 80px;
     }
+
+    /* contact section */
+
+    .Submit {
+        font-size: 16px;
+        width: 120px;
+    }
 }
 
 @media (max-width: 960px) {
@@ -1064,6 +1170,48 @@ footer {
     .Why-us-items p {
         font-size: 17px;
         width: 300px;
+    }
+
+    /* contact section */
+
+    .contact-wrap {
+        gap: 80px;
+    }
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 450px;
+    }
+
+    #Message {
+        height: 150px;
+    }
+
+    /* footer */
+
+    #logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #logo h2 {
+        font-size: 20px;
+    }
+
+    .links h3,
+    .info-links h3,
+    .social-links h3 {
+        font-size: 19px;
+    }
+
+    .links a,
+    .info-links span {
+        font-size: 15px;
+    }
+
+    .link-wrap a {
+        font-size: 21px;
     }
 }
 
@@ -1128,7 +1276,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 26px;
     }
 
@@ -1139,6 +1288,54 @@ footer {
     .About-image {
         height: 370px;
         width: 370px;
+    }
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 400px;
+    }
+
+    #Message {
+        height: 100px;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 50px 40px;
+    }
+
+    .foot-wrap {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #logo img {
+        height: 60px;
+        width: 60px;
+        margin-left: 40px;
+    }
+
+    #logo h2 {
+        font-size: 24px;
+    }
+
+    .links h3,
+    .info-links h3,
+    .social-links h3 {
+        font-size: 22px;
+    }
+
+    .links a,
+    .info-links span {
+        font-size: 17px;
+    }
+
+    .link-wrap a {
+        font-size: 25px;
     }
 }
 
@@ -1226,6 +1423,12 @@ footer {
     .buttons button {
         font-size: 13px;
     }
+
+    /* footer */
+
+    #logo img {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 810px) {
@@ -1291,7 +1494,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 32px;
         padding: 40px 0 80px;
     }
@@ -1319,6 +1523,49 @@ footer {
     .menu {
         width: 800px;
         gap: 50px;
+    }
+
+    /* contact section */
+
+    .contact-wrap {
+        gap: 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* contact section */
+
+    .input-box label {
+        font-size: 16px;
+    }
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 600px;
+        margin-left: -10px;
+        font-size: 15px;
+    }
+
+    .input-box {
+        margin: 15px 0;
+    }
+
+    .input-box input {
+        height: 45px;
+    }
+
+    .Submit {
+        margin-left: -10px;
+    }
+
+    #Message {
+        height: 120px;
+    }
+
+    .info-box {
+        margin: 30px 0;
     }
 }
 
@@ -1399,6 +1646,13 @@ footer {
     .Why-us-wrap {
         gap: 20px;
     }
+
+    /* contact section */
+
+    .Submit {
+        font-size: 15px;
+        width: 110px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -1446,6 +1700,18 @@ footer {
         font-size: 17px;
         width: 320px;
     }
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 500px;
+    }
+
+    #Message {
+        height: 100px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -1482,7 +1748,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 30px;
         padding: 20px 0 60px;
     }
@@ -1521,6 +1788,17 @@ footer {
     .menu-image {
         height: 320px;
         width: 320px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 400px;
     }
 }
 
@@ -1563,7 +1841,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 28px;
     }
 
@@ -1592,7 +1871,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 26px;
     }
 
@@ -1607,7 +1887,8 @@ footer {
 
     /* services section */
 
-    #Services {
+    #Services,
+    #Contact {
         padding-top: 40px;
     }
 }
@@ -1632,6 +1913,7 @@ footer {
 
     .center-text {
         width: 400px;
+        margin-left: -10px;
     }
 
     .center-text h2 {
@@ -1654,6 +1936,21 @@ footer {
     .image img {
         height: 350px;
         width: 350px;
+        margin-right: 30px;
+    }
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 300px;
+    }
+
+    .Submit {
+        font-size: 14px;
+        width: 100px;
+        padding: 8px 20px;
     }
 }
 
@@ -1668,7 +1965,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 24px;
         padding: 20px 0 60px;
     }
@@ -1748,7 +2046,8 @@ footer {
     .About-text h2,
     #Services h2,
     #Why-us h2,
-    #Gallery h2 {
+    #Gallery h2,
+    #Contact h2 {
         font-size: 22px;
         padding: 0 0 40px;
     }
@@ -1756,6 +2055,16 @@ footer {
     .About-image {
         height: 330px;
         width: 330px;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 30px;
+    }
+
+    .foot-wrap {
+        gap: 20px;
     }
 }
 
@@ -1892,6 +2201,52 @@ footer {
         height: 200px;
         width: 300px;
     }
+
+    /* contact section */
+
+    .input-box,
+    .input-box input,
+    #Message {
+        width: 250px;
+    }
+
+    .info-wrap h3 {
+        font-size: 18px;
+    }
+
+    .info-box p {
+        font-size: 16px;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 30px 20px;
+    }
+
+    #logo img {
+        height: 50px;
+        width: 50px;
+    }
+
+    #logo h2 {
+        font-size: 22px;
+    }
+
+    .links h3,
+    .info-links h3,
+    .social-links h3 {
+        font-size: 20px;
+    }
+
+    .links a,
+    .info-links span {
+        font-size: 15px;
+    }
+
+    .link-wrap a {
+        font-size: 23px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -1915,6 +2270,16 @@ footer {
     .Why-us-items p {
         font-size: 15px;
         width: 280px;
+    }
+
+    /* contact section */
+
+    .info-wrap h3 {
+        font-size: 17px;
+    }
+
+    .info-box p {
+        font-size: 14px;
     }
 }
 
