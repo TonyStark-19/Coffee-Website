@@ -76,10 +76,12 @@ nav {
     padding: 10px 25px;
     border-radius: 25px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.nav-link a {
-    text-decoration: none;
+.nav-link li {
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -90,7 +92,7 @@ nav {
     background: #f3961c;
 }
 
-.nav-link:hover a {
+.nav-link:hover li {
     color: #3b141c;
 }
 
@@ -1436,7 +1438,7 @@ footer {
         width: 70%;
     }
 
-    .nav-link a {
+    .nav-link li {
         color: #3b141c;
         font-size: 18px;
     }
