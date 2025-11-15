@@ -1,14 +1,23 @@
 # ☕ Brewed Bliss - Coffee Website
 
-Welcome to **Brewed Bliss**, a digital haven for coffee lovers!  
-This fully responsive website brings the warmth and charm of a cozy coffeehouse online. Explore our menu, services, gallery, and easily get in touch for orders, reservations, or inquiries.
+Welcome to **Brewed Bliss**, your digital coffeehouse experience! <br/>
+This project brings the cozy warmth, aroma, and atmosphere of a café straight to your screen. Explore the menu, browse the gallery, learn our story, and get in touch—all through a beautifully crafted, fully responsive website.
 
 ---
 
 ## 📸 Screenshots
 
-### Homepage :
-![Homepage Screenshot](images/image.png)
+| Preview 1 | Preview 2 |
+|------------|------------|
+| ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
+
+| Preview 3 | Preview 4 |
+|------------|------------|
+| ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
+
+| Preview 5 | Preview 6 |
+|------------|------------|
+| ![Screenshot 5](images/Screenshot/image5.png) | ![Screenshot 6](images/Screenshot/image6.png) |
 
 ---
 
@@ -20,13 +29,13 @@ The project is live and can be viewed here: [Brewed Bliss Coffee Website](https:
 
 ## 📌 Features
 
-- 🎨 **Fully Responsive Design** – Smooth experience across mobile, tablet, and desktop  
-- 📖 **About Section** – Discover our café’s story and philosophy  
-- 📋 **Menu Showcase** – Browse through our delicious coffee options  
-- 🌟 **Why Us Section** – Highlights our exceptional offerings such as delicious food, great ambiance, and warm hospitality  
-- 🖼️ **Gallery Section** – Visual glimpse into our coffeehouse vibe  
-- 📞 **Contact Form** – Simple and functional for inquiries and bookings  
-- 💬 **Font Awesome Icons** – Elegant and lightweight icons throughout  
+- 🎨 Fully Responsive UI – Seamlessly adapts to mobile, tablet, and desktop layouts
+- 📖 About Section – Learn more about our café’s story and philosophy
+- ☕ Menu Display – Showcasing a variety of delightful coffee and beverages
+- 🌟 Why Choose Us Section – Highlights ambiance, food quality, and hospitality
+- 🖼️ Gallery Section – Aesthetic visuals reflecting the café's vibe
+- 📞 Contact Form – Easy and functional for reservations and inquiries
+-💬 Font Awesome Icons – Clean icons for enhanced user experience
 
 ---
 
@@ -59,4 +68,7 @@ To run the project locally:
 
 ---
 
-Made with ❤️ by Aditya chandel
+## 💙 Author
+
+Made with ❤️ by **Aditya Chandel** <br />
+If you liked this project, feel free to ⭐ the repo!
