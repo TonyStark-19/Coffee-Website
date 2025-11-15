@@ -140,13 +140,13 @@ nav {
 }
 
 .center-text h2 {
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 700;
     color: #f3961c;
 }
 
 .center-text h3 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     color: #fff;
     margin: 5px 0 0;
@@ -154,7 +154,7 @@ nav {
 
 .center-text p {
     width: 550px;
-    font-size: 20px;
+    font-size: 22px;
     margin: 20px 0 40px;
     color: #fff;
     letter-spacing: 1px;
@@ -790,6 +790,20 @@ footer {
         margin-left: -80px;
     }
 
+    .center-text h2 {
+        font-size: 38px;
+    }
+
+    .center-text h3 {
+        font-size: 33px;
+        margin-top: 13px;
+    }
+
+    .center-text p {
+        font-size: 18px;
+        margin-top: 22px;
+    }
+
     /* services section */
 
     .menu {
@@ -848,20 +862,6 @@ footer {
 
     .center-text {
         width: 750px;
-    }
-
-    .center-text h2 {
-        font-size: 38px;
-    }
-
-    .center-text h3 {
-        font-size: 33px;
-        margin-top: 13px;
-    }
-
-    .center-text p {
-        font-size: 18px;
-        margin-top: 22px;
     }
 
     .image img {

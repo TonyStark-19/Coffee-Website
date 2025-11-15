@@ -1,5 +1,4 @@
 // JavaScript to toggle the menu
-
 document.addEventListener('DOMContentLoaded', function () {
     const menu = document.querySelector('.navigation');
     const menuBtn = document.querySelector('.menu-btn');
