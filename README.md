@@ -7,15 +7,15 @@ This project brings the cozy warmth, aroma, and atmosphere of a café straight t
 
 ## 📸 Screenshots
 
-| Preview 1 | Preview 2 |
+| 🏠 Home Section | 👥 About Us Section |
 |------------|------------|
 | ![Screenshot 1](images/Screenshot/image1.png) | ![Screenshot 2](images/Screenshot/image2.png) |
 
-| Preview 3 | Preview 4 |
+| 🛠️ Services Section | ⭐ Why Us Section |
 |------------|------------|
 | ![Screenshot 3](images/Screenshot/image3.png) | ![Screenshot 4](images/Screenshot/image4.png) |
 
-| Preview 5 | Preview 6 |
+| 🖼️ Gallery Section | 📞 Contact Us Section |
 |------------|------------|
 | ![Screenshot 5](images/Screenshot/image5.png) | ![Screenshot 6](images/Screenshot/image6.png) |
 
